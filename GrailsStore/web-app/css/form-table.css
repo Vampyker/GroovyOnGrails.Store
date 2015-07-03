@@ -1,0 +1,26 @@
+form td, form th {
+  vertical-align: top;
+  text-align: left;
+  padding: 0 10px 10px 0;
+}
+form table {
+  width: 100%;
+}
+form tr td:nth-child(1)  {
+  font-weight: bold;
+  width: 10px;
+  white-space: nowrap;
+}
+form tr td:nth-child(2) {
+  width: 100%;
+}
+form td input[type='text'],
+form td input[type='password']
+{
+  width: 80%;
+}
+form textarea {
+  width: 80%;
+  height: 150px;
+}
+form h3 { color: red; }
